@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "ec2-3-216-129-140.compute-1.amazonaws.com",
+  "host": "ec2-54-236-169-55.compute-1.amazonaws.com",
   "port": "5432",
-  "username": "xzrohuujuwmzyc",
-  "password": "4e09f5448464e198d07a309928760f15066c20216d9a94ab5572b91ed696e6ec",
-  "database": "ddsae1egjm34j1",
+  "username": "spetwwgsnmdsom",
+  "password": "4178d51dd4cbe138c8eff20ae715d99d16e5dd6a58e39d8a933fbe6b14e5ddb4",
+  "database": "d4f0qo65g7jf2q",
   "entities": [
     "./src/models/*.ts"
   ],

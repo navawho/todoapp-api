@@ -6,7 +6,8 @@
   "password": "4178d51dd4cbe138c8eff20ae715d99d16e5dd6a58e39d8a933fbe6b14e5ddb4",
   "database": "d4f0qo65g7jf2q",
   "entities": [
-    "./src/models/*.ts"
+    "./src/models/User.ts",
+    "./src/models/Task.ts"
   ],
   "extra": {
     "ssl": {

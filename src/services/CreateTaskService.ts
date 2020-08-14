@@ -14,7 +14,7 @@ export default class CreateTaskService {
   public async execute ({ user_id, name, description }: Request): Promise<Task> {
     const tasksRepository = getRepository(Task);
 
-    const checkTaskExists = await tasksRepository.findOne({ where: { name } });
+    const checkTaskExists = await tasksRepository.findOne({ where: { name, user_id } });
 
     if (checkTaskExists) {
       throw new AppError('Tarefa já existe');
